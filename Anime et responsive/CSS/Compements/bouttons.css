@@ -1,0 +1,21 @@
+.btn{
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+.btn-blue{
+    background-color: blue;
+    color: aliceblue;
+    border: 2px solid black;
+}
+.btn-yellow{
+    background-color: aquamarine;
+    color: aliceblue;
+    border: 2px solid black;
+}
+.btn-blue:hover {
+    background-color: green;
+}
+.btn-yellow:hover {
+    background-color: pink
+}

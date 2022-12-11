@@ -1,0 +1,38 @@
+.banner{
+    background-image: url("../../image/iim-img.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 150px;
+}
+
+
+.banner div{
+    display: flex;
+    justify-content: center;
+}
+
+.banner h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 20%;
+}
+
+.img-banner{
+    background-image: url(../../image/image\ projet.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 100px;
+}
+.img-index2{
+    width: 200px;
+    height: 200px;
+}
+
+.index4{
+    width: 100%;
+}

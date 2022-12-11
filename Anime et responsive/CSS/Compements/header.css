@@ -1,0 +1,30 @@
+.banner-header{
+    background-image: url(../../image/img-acceuil.png);
+    width: 100%;
+    color: black;
+}
+
+.avatar-header{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.list-header{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.apropos{
+    height: 100vh;
+    background: url(../../image/profil\ fond.png);
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.apropos p{
+    text-align: center;
+
+}

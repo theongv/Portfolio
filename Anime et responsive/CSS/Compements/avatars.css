@@ -1,0 +1,32 @@
+.avatar{
+    object-fit: cover;
+    border-radius: 50%;
+}
+.avatar-small {
+    width : 100px;
+    height : 100px;
+}
+
+
+.anim{
+    animation: 5s linear infinite av-rg;
+    transition: ease-in-out 2s;
+}
+
+@keyframes av-rg{
+    0%{
+        border: 3px solid rgb(0, 0, 0);
+    }
+    25%{
+        border: 3px solid rgb(255, 0, 0);
+    }
+    50%{
+        border: 3px solid rgb(0, 255, 0);
+    }
+    75%{
+        border: 3px solid rgb(0, 0, 255);
+    }
+    100%{
+        border: 3px solid rgb(0, 0, 0);
+    }
+}

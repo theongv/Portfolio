@@ -1,0 +1,26 @@
+@import url(Compements/avatars.css);
+@import url(Compements/Banner.css);
+@import url(Compements/bouttons.css);
+@import url(Compements/Container.css);
+@import url(Compements/Footer.css);
+@import url(Compements/Navbar.css);
+@import url(Compements/header.css);
+@import url(Compements/grid.css);
+@import url(Compements/card.css);
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.list-projet{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.IIM{
+    width: 100%;
+    filter: opacity(60%);
+}
+.footer{
+    background: burlywood;
+}

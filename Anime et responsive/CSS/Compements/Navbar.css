@@ -1,0 +1,13 @@
+.navbar-element{
+    color: black;
+}
+
+.list-projet{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.list-projet li{
+    padding: 5px;
+}
